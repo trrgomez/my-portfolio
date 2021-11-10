@@ -170,17 +170,20 @@ header .navbar {
 
 header .navbar ul {
     list-style: none;
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin: 3rem 0;
+}
+
+header .navbar ul li {
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 header .navbar ul li a {
     display: block;
     padding: 1rem;
-    margin: 1.5rem 0;
-    background: var(--secondary-color);
+    background: var(--light-bg);
     color: var(--light-color);
     font-size: var(--fs-body);
-    border-radius: 5rem;
     text-decoration: none;
 }
 
