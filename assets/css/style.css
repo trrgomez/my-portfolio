@@ -204,6 +204,27 @@ header .navbar ul li a:hover {
 
 /* Header Section End */
 
+/* Home Section Starts */
+
+.home {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-flow: column;
+    padding: 0 15rem;
+    color: var(--light-color);
+}
+
+.home h1 span {
+    color: var(--primary-color);
+}
+
+.home h1 {
+    margin: 1rem 0;
+}
+
+/* Home Section Ends */
+
 
 
 
