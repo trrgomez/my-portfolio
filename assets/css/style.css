@@ -412,13 +412,22 @@ header .navbar ul li a:hover {
 
 /* Resposive Media Queries */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
     html {
         font-size: 55%;
     }
 
     .contact form {
         width: 90%;
+    }
+
+    .about .row {
+        flex-direction: column;
+        text-align: center      
+    }
+
+    .about h3 {
+        padding-top: 5rem;
     }
 }
 
@@ -454,10 +463,6 @@ header .navbar ul li a:hover {
         font-size: 50%;
     }
 
-    .about .row {
-        flex-direction: column;
-        text-align: center;
-    }
 
     .about .col h3 {
         padding-top: 10rem;
