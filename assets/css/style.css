@@ -1,0 +1,218 @@
+/* General Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+}
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Roboto', sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+    --light-color: #fff;
+    --primary-color: pink;
+    --light-bg: #555;
+    --secondary-color: #333;
+    --dark-color: #222;
+    --fs-h1: 6rem;
+    --fs-h2: 5.25rem;
+    --fs-h3: 4.45rem;
+    --fs-body: 2.5rem;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background:var(--primary-color);
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--dark-color);
+}
+
+body {
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
+    /* padding-left: 35rem; */
+    padding-left: 40rem;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+
+}
+
+/* General Styling Ends */
+
+/* Utilies Start */
+
+.section-title {
+    text-align: center;
+    margin: 0 6rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid var(--light-color);
+    color: var(--light-color);
+}
+
+.section-title span {
+    color:var(--primary-color);
+}
+
+.subsection-title {
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--light-color);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 2rem 4rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    margin-top:1rem ;
+    font-size: var(--fs-body);
+    border-radius: 5rem;
+    border: none;
+}
+.btn:hover {
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 5rem;
+}
+/* Utilies End */
+
+/* Header Section Start */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 40rem;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+
+}
+
+header .user-name {
+    font-size: var(--fs-h1);
+}
+
+header .user img {
+    height: 20rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 0.7rem solid var(--primary-color);
+}
+
+header .user-name {
+    font-size: 3.5rem;
+    color: var(--light-color);
+}
+header .user-title {
+    font-size: 2rem;
+    color:var(--light-color);
+}
+
+header .navbar {
+    width: 100%;
+}
+
+header .navbar ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+header .navbar ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: var(--secondary-color);
+    color: var(--light-color);
+    font-size: var(--fs-body);
+    border-radius: 5rem;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
+#menu {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 3.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+    color: var(--light-color);
+}
+
+/* Header Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
