@@ -377,6 +377,108 @@ header .navbar ul li a:hover {
 
 
 
+/* Resposive Media Queries */
+
+@media screen and (max-width:1200px){
+    html {
+        font-size: 55%;
+    }
+
+    .contact form{
+        width: 90%;
+   }
+}
+
+
+@media screen and (max-width:990px){
+
+    header {
+        left: -220%;
+    }
+
+    #menu {
+        display: block;
+    }
+
+   header.active {
+        left: 0%;
+    }
+
+    body {
+        padding-left: 0;
+    }
+
+    .home {
+        padding: 0 15rem;
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+
+ html {
+     font-size: 50%;
+ }
+
+ .about .row {
+     flex-direction: column;
+     text-align: center;
+ }
+
+ .about .col h3 {
+    padding-top: 10rem;
+}
+
+ .progress-bars-wrapper {
+     padding-top: 2rem;
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .portfolio .row {
+     flex-direction: column;
+ }
+
+ .portfolio .col {
+     flex: 100%;
+ }
+
+ .portfolio img {
+     width: 100%;
+     padding: 1rem 5rem;
+ }
+
+}
+
+
+@media screen and (max-width:400px){
+    header {
+       width: 100vw;
+    }
+
+    .home h1{
+        margin: 2rem 0;
+     }
+
+    .home h3{
+        font-size: 3rem;
+    }
+
+    .home .btn {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .text-center {
+        margin-top: 2rem;
+    }
+
+    .progress-bars-wrapper {
+        margin-bottom: 10rem;
+    }
+
+}
 
 
 
