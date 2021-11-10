@@ -202,6 +202,19 @@ header .navbar ul li a:hover {
     color: var(--light-color);
 }
 
+.social-links {
+    padding-top: 2rem;
+}
+
+.social-links a {
+    margin: 0 1rem;
+}
+
+.social-links i {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+}
+
 /* Header Section End */
 
 /* Home Section Starts */
