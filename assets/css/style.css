@@ -340,6 +340,41 @@ header .navbar ul li a:hover {
 
 /* Portfolio Section Ends */
 
+/* Contact Section Starts */
+.contact form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 50%;
+    margin: 5rem auto;
+}
+
+.contact form input{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--light-bg);
+    color: var(--light-color);
+    text-transform: none;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 2rem;
+}
+.contact form textarea{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--light-bg);
+    color: var(--light-color);
+    text-transform: none;
+    font-size: 1.7rem;
+    border: none;
+}
+
+.contact .btn {
+  font-size: var(--fs-body);
+}
+
+/* Contact Section Ends */
+
 
 
 
