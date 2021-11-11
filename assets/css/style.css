@@ -389,7 +389,8 @@ header .navbar ul li a:hover {
     margin: 20rem auto;
 }
 
-.contact form input {
+.contact form input,
+.contact form textarea {
     padding: 1.5rem;
     margin: 1rem 0;
     background: var(--light-bg);
@@ -493,7 +494,6 @@ header .navbar ul li a:hover {
     .contact form input,
     .contact .btn {
         font-size: 2rem;
-        padding: 1rem 15rem;
     }
 
     .contact form {
