@@ -203,14 +203,23 @@ header .navbar ul li a:hover {
 
 #menu {
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 1.5rem;
+    left: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
     cursor: pointer;
-    font-size: 3.5rem;
-    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
     z-index: 9999;
+    box-shadow: 0.4rem 0.4rem 1rem #222;
+    border-radius: 50%;
     display: none;
     color: var(--light-color);
+    text-align: center;
+}
+
+#menu:hover {
+    color: var(--primary-color);
 }
 
 .social-links {
